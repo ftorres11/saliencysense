@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+*.pth
+*.pyc
+*.pyo
+*.backup
+*.swp
+*.json
+*.tar.gz
+*.zip
+data*/
+# C extensions
+*.so
