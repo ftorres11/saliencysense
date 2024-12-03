@@ -34,7 +34,7 @@ Metrics](https://openreview.net/pdf?id=Hftgajppmz)
 
    - For interpretable evaluation (metrics from [Grad-CAM++](https://arxiv.org/abs/1710.11063) and [RISE](https://arxiv.org/abs/1806.07421)) refer to script [interpretable recognition](py_scripys/evaluation/intepretable_recon.py).
 
-   - For metrics relating to [Fidelity](), refer to script [complex analysis](routines/evaluation/complex_analysis.py).
+   - For metrics relating to Fidelity, refer to script [complex analysis](routines/evaluation/complex_analysis.py).
 
    - Lastly, for evaluation experiments and similar to interpretable recognition, refer to script [localization
   evaluation](routines/evaluation/localization_evaluation.py).
@@ -45,7 +45,7 @@ Metrics](https://openreview.net/pdf?id=Hftgajppmz)
 
 ### Additional Notes
 Additional attribution methods are actively being developed and added as support to this repository. Most importantly
-methods derivating from *Layer Relevance Propagation* are planned towards the future although support for different
+methods derivating from *Layer-wise Relevance Propagation* are planned towards the future although support for different
 architectures with skip connections and complex designs is still pending.
 
 ### Citation
