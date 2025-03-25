@@ -1,0 +1,8 @@
+einops
+quantus
+python-hostlist
+grad-cam
+huggingface-hub
+opencv-python
+timm
+ttach
