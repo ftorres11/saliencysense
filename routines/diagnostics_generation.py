@@ -75,8 +75,8 @@ def main():
     softmax = nn.Softmax(dim=-1)
     for images, labels, names in loaded:
         # Retrieving the batch
-        images = images.to(torch.cuda.current_device())
-        labels = labels.to(torch.cuda.current_device())
+        images = images.to(args.device)
+        labels = labels.to(args.device)
         # Forward through the model to get logits
         outputs = model(images)
         probs = softmax(outputs)
